@@ -1,0 +1,3 @@
+album_type,songs,median_cumulative_appearances,mean_cumulative_appearances,median_best_position,share_top10_ever_pct,median_rank_volatility_sd,share_with_reentry_pct,median_popularity_mean,observed_entry_songs,median_time_to_peak_days_observed_entry,share_right_censored_pct
+album,97,5.0,27.45360824742268,18.0,29.896907216494846,6.159085729358322,15.463917525773196,78.1,76,0.0,29.896907216494846
+single,91,30.0,53.24175824175824,19.0,35.16483516483517,6.961207894778801,21.978021978021978,81.20408163265306,62,2.0,23.076923076923077

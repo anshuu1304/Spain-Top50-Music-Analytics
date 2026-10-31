@@ -1,0 +1,14 @@
+{
+  "raw_rows": 7508,
+  "clean_rows": 7508,
+  "rejected_rows": 0,
+  "distinct_song_keys": 188,
+  "distinct_song_titles_normalised": 181,
+  "distinct_artist_credits": 101,
+  "songs_with_attribute_conflict": 9,
+  "attribute_conflict_rows": 32,
+  "songs_with_shared_title": 14,
+  "rows_on_incomplete_snapshots": 8,
+  "first_date": "2024-05-18",
+  "last_date": "2024-10-15"
+}

@@ -1,0 +1,28 @@
+test,p_raw,p_holm_family
+is_explicit: True vs False | appearances_MW,0.07292485794790823,1.0
+is_explicit: True vs False | best_position_MW,0.23269559446758248,1.0
+is_explicit: True vs False | popularity_mean_MW,0.6501677446290479,1.0
+is_explicit: True vs False | rank_volatility_MW,0.7318588830196753,1.0
+is_explicit: True vs False | time_to_peak_MW,0.22551928782973107,1.0
+is_explicit: True vs False | first_run_logrank,0.8936589863053226,1.0
+album_type: album vs single | appearances_MW,4.108216548232624e-07,1.0681363025404822e-05
+album_type: album vs single | best_position_MW,0.2216220364675655,1.0
+album_type: album vs single | popularity_mean_MW,0.006011845231848189,0.12624874986881196
+album_type: album vs single | rank_volatility_MW,0.22762261808539108,1.0
+album_type: album vs single | time_to_peak_MW,1.8024859249229726e-05,0.00043259662198151343
+album_type: album vs single | first_run_logrank,0.002903970917431865,0.06388736018350102
+duration_ms | cumulative appearances,0.45633535940063147,1.0
+duration_ms | best position (lower = better),0.4588189569349024,1.0
+duration_ms | mean popularity,0.17075327945258661,1.0
+duration_ms | re-entries,0.8187905700441089,1.0
+duration_ms | time to peak (observed entry),0.7462031191782824,1.0
+total_tracks | cumulative appearances,5.553311524034799e-10,1.4993941114893957e-08
+total_tracks | best position (lower = better),0.3222342863253964,1.0
+total_tracks | mean popularity,0.052090196672167924,0.9897137367711906
+total_tracks | re-entries,0.18125129100823376,1.0
+total_tracks | time to peak (observed entry),1.504918261341754e-06,3.7622956533543846e-05
+total_tracks (albums only) | cumulative appearances,4.662549716320751e-05,0.0010723864347537727
+total_tracks (albums only) | best position (lower = better),0.5195901652390439,1.0
+total_tracks (albums only) | mean popularity,0.22656379080560157,1.0
+total_tracks (albums only) | re-entries,0.5139794792597177,1.0
+total_tracks (albums only) | time to peak (observed entry),0.014031313509501295,0.2806262701900259

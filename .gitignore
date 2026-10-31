@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+# Keep raw data out of version control if licensing requires it
+# data/raw/*.csv
+app_before_chart_fix.py
+data/raw/

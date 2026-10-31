@@ -1,0 +1,189 @@
+song_key,song_norm,artist_norm,song_original,artist_original,shared_title_flag,canonical_album_type,conflict_album_type,canonical_is_explicit,conflict_is_explicit,canonical_duration_ms,conflict_duration_ms,canonical_total_tracks,conflict_total_tracks,any_attribute_conflict
+supernova || saiko,supernova,saiko,Supernova,Saiko,False,single,False,False,False,190909,False,1,False,False
+el tonto || lola indigo,el tonto,lola indigo,EL TONTO,Lola Indigo,False,album,False,False,False,187986,False,11,False,False
+acróstico || shakira,acróstico,shakira,Acróstico,Shakira,False,single,False,False,False,170785,False,1,False,False
+beso || rosalía & rauw alejandro,beso,rosalía & rauw alejandro,BESO,ROSALÍA & Rauw Alejandro,False,single,False,False,False,194543,False,3,False,False
+el merengue || marshmello & manuel turizo,el merengue,marshmello & manuel turizo,El Merengue,Marshmello & Manuel Turizo,False,single,False,False,False,189668,False,1,False,False
+mami chula || jhayco & quevedo,mami chula,jhayco & quevedo,Mami Chula,Jhayco & Quevedo,False,single,False,False,False,220600,False,1,False,False
+classy 101 || feid & young miko,classy 101,feid & young miko,Classy 101,Feid & Young Miko,False,single,False,True,False,195986,False,1,False,False
+clavaito || chanel & abraham mateo,clavaito,chanel & abraham mateo,Clavaito,Chanel & Abraham Mateo,False,single,False,False,False,162740,False,1,False,False
+tqg || karol g,tqg,karol g,TQG,KAROL G,False,album,False,True,False,197933,False,17,False,False
+yandel 150 || yandel,yandel 150,yandel,Yandel 150,Yandel,False,album,False,True,False,216148,False,17,False,False
+nochentera || vicco,nochentera,vicco,Nochentera,Vicco,False,single,False,False,False,202184,False,1,False,False
+todo contigo || álvaro de luna,todo contigo,álvaro de luna,Todo Contigo,Álvaro De Luna,False,single,False,False,False,165527,False,1,False,False
+la bebe - remix || yng lvcas & peso pluma,la bebe - remix,yng lvcas & peso pluma,La Bebe - Remix,Yng Lvcas & Peso Pluma,False,single,False,True,False,234352,False,2,False,False
+niña bonita || feid & sean paul,niña bonita,feid & sean paul,Niña Bonita,Feid & Sean Paul,False,single,False,False,False,187653,False,1,False,False
+playa del inglés || quevedo,playa del inglés,quevedo,PLAYA DEL INGLÉS,Quevedo,False,album,False,False,False,237525,False,16,False,False
+rara vez || taiu & milo j,rara vez,taiu & milo j,Rara Vez,Taiu & Milo j,False,single,False,False,False,128677,False,1,False,False
+coco chanel || eladio carrion,coco chanel,eladio carrion,Coco Chanel,Eladio Carrion,False,album,False,True,False,208125,False,18,False,False
+wanda || quevedo,wanda,quevedo,WANDA,Quevedo,False,album,False,False,False,160909,False,16,False,False
+cupido || tini,cupido,tini,Cupido,TINI,False,album,False,False,False,174369,False,14,False,False
+los ángeles || aitana,los ángeles,aitana,Los Ángeles,Aitana,False,single,False,False,False,158483,False,1,False,False
+tattoo || loreen,tattoo,loreen,Tattoo,Loreen,False,single,False,False,False,183374,False,1,False,False
+si la calle llama - remix || eladio carrion,si la calle llama - remix,eladio carrion,Si La Calle Llama - Remix,Eladio Carrion,False,album,False,True,False,240000,False,18,False,False
+ella baila sola || eslabon armado,ella baila sola,eslabon armado,Ella Baila Sola,Eslabon Armado,False,album,False,False,False,165671,False,16,False,False
+la bachata || manuel turizo,la bachata,manuel turizo,La Bachata,Manuel Turizo,False,album,False,False,False,162637,False,15,False,False
+mercho || lil cake & migrantes,mercho,lil cake & migrantes,MERCHO,LiL CaKe & Migrantes,False,single,False,False,False,161451,False,1,False,False
+que te vaya bien || rvfv,que te vaya bien,rvfv,Que te vaya bien,Rvfv,False,single,False,False,False,204960,False,1,False,False
+punto g || quevedo,punto g,quevedo,PUNTO G,Quevedo,False,album,False,False,False,151324,False,16,False,False
+mi nena remix || maikel delacalle & quevedo,mi nena remix,maikel delacalle & quevedo,Mi Nena Remix,Maikel Delacalle & Quevedo,False,single,False,False,False,220000,False,1,False,False
+antes || rvfv & edu garcía,antes,rvfv & edu garcía,Antes,Rvfv & Edu García,False,single,False,False,False,153684,False,1,False,False
+hey mor || ozuna,hey mor,ozuna,Hey Mor,Ozuna,False,album,False,False,False,196600,False,18,False,False
+"quevedo: bzrp music sessions, vol. 52 || bizarrap & quevedo","quevedo: bzrp music sessions, vol. 52",bizarrap & quevedo,"Quevedo: Bzrp Music Sessions, Vol. 52",Bizarrap & Quevedo,False,single,False,False,False,198937,False,1,False,False
+chorrito pa las animas || feid,chorrito pa las animas,feid,CHORRITO PA LAS ANIMAS,Feid,False,single,False,True,False,168133,False,6,False,False
+"shakira: bzrp music sessions, vol. 53 || bizarrap & shakira","shakira: bzrp music sessions, vol. 53",bizarrap & shakira,"Shakira: Bzrp Music Sessions, Vol. 53",Bizarrap & Shakira,False,single,False,False,False,214945,False,1,False,False
+un x100to || grupo frontera & bad bunny,un x100to,grupo frontera & bad bunny,un x100to,Grupo Frontera & Bad Bunny,False,single,False,False,False,194563,False,1,False,False
+polaris || saiko,polaris,saiko,Polaris,Saiko,False,single,False,True,False,192122,False,3,False,False
+la fiesta || pedro capó,la fiesta,pedro capó,La Fiesta,Pedro Capó,False,album,False,False,False,201044,False,10,False,False
+cha cha cha || käärijä,cha cha cha,käärijä,Cha Cha Cha,Käärijä,False,single,False,False,False,175161,False,1,False,False
+arranca (feat. omega) || becky g & omega,arranca (feat. omega),becky g & omega,Arranca (feat. Omega),Becky G & Omega,False,single,False,False,False,166529,False,1,False,False
+vagabundo || sebastian yatra & manuel turizo & beéle,vagabundo,sebastian yatra & manuel turizo & beéle,VAGABUNDO,Sebastian Yatra & Manuel Turizo & Beéle,True,single,False,False,False,215600,False,1,False,False
+andando || morad,andando,morad,Andando,Morad,False,album,False,True,False,261713,False,19,False,False
+rápido || mora,rápido,mora,RÁPIDO,Mora,False,single,False,True,False,182857,False,1,False,False
+la jumpa || arcángel,la jumpa,arcángel,La Jumpa,Arcángel,False,album,False,True,False,255693,False,18,False,False
+memorias || mora,memorias,mora,MEMORIAS,Mora,False,album,False,False,False,228750,False,15,False,False
+paz || morad,paz,morad,Paz,Morad,False,album,False,False,False,186000,False,19,False,False
+t'as peur || aya nakamura,t'as peur,aya nakamura,T'as peur,Aya Nakamura,False,album,False,False,False,215284,False,15,False,False
+mi droga || myke towers,mi droga,myke towers,MI DROGA,Myke Towers,False,album,False,True,False,163240,False,23,False,False
+no estuviste en lo malo || morad,no estuviste en lo malo,morad,No Estuviste En Lo Malo,Morad,False,album,False,False,False,247680,False,19,False,False
+flowers || miley cyrus,flowers,miley cyrus,Flowers,Miley Cyrus,False,album,False,False,False,200600,False,13,False,False
+las bratz (remix) || aissa & jc reyes & saiko,las bratz (remix),aissa & jc reyes & saiko,Las Bratz (Remix),Aissa & JC Reyes & Saiko,False,single,False,True,False,444631,False,1,False,False
+remix exclusivo || feid,remix exclusivo,feid,REMIX EXCLUSIVO,Feid,False,single,False,True,False,206946,False,1,False,False
+where she goes || bad bunny,where she goes,bad bunny,WHERE SHE GOES,Bad Bunny,False,single,True,True,False,231704,False,1,True,True
+arena y sal || omar montes & saiko & tunvao,arena y sal,omar montes & saiko & tunvao,Arena y Sal,Omar Montes & Saiko & Tunvao,False,single,False,False,False,174415,False,1,False,False
+69 || nicky jam & feid,69,nicky jam & feid,69,Nicky Jam & Feid,False,single,False,True,False,221935,False,1,False,False
+vista al mar || quevedo,vista al mar,quevedo,VISTA AL MAR,Quevedo,False,album,False,False,False,180672,False,16,False,False
+despechá || rosalía,despechá,rosalía,DESPECHÁ,ROSALÍA,False,album,False,False,True,156787,False,24,False,True
+amanece || anuel aa & haze,amanece,anuel aa & haze,Amanece,Anuel AA & Haze,False,single,False,False,False,190004,False,1,False,False
+amargura || karol g,amargura,karol g,AMARGURA,KAROL G,False,album,False,True,False,170480,False,17,False,False
+sangre y fe || cruz cafuné,sangre y fe,cruz cafuné,Sangre y Fe,Cruz Cafuné,False,album,False,True,False,231500,False,23,False,False
+4 prez || cruz cafuné,4 prez,cruz cafuné,4 PREZ,Cruz Cafuné,False,album,False,True,False,149484,False,23,False,False
+dios \#1 || cruz cafuné,dios \#1,cruz cafuné,Dios \#1,Cruz Cafuné,False,album,False,True,False,200125,False,23,False,False
+sin gato (miau\!) || rels b,sin gato (miau\!),rels b,Sin Gato (MIAU\!),Rels B,False,single,False,False,False,148800,False,1,False,False
+cangrinaje || cruz cafuné,cangrinaje,cruz cafuné,Cangrinaje,Cruz Cafuné,False,album,False,True,False,211765,False,23,False,False
+flow violento - remix || yosoyplex & ruven,flow violento - remix,yosoyplex & ruven,Flow Violento - Remix,YoSoyPlex & Ruven,False,single,False,True,False,166533,False,1,False,False
+la inocente || mora,la inocente,mora,LA INOCENTE,Mora,False,album,False,True,False,202173,False,15,False,False
+pacto (feat. luar la l) || jay wheeler,pacto (feat. luar la l),jay wheeler,Pacto (feat. Luar La L),Jay Wheeler,False,album,False,True,False,284021,False,9,False,False
+"peso pluma: bzrp music sessions, vol. 55 || bizarrap & peso pluma","peso pluma: bzrp music sessions, vol. 55",bizarrap & peso pluma,"Peso Pluma: Bzrp Music Sessions, Vol. 55",Bizarrap & Peso Pluma,False,single,False,True,False,188361,False,1,False,False
+el cielo || sky rompiendo & feid & myke towers,el cielo,sky rompiendo & feid & myke towers,El Cielo,Sky Rompiendo & Feid & Myke Towers,False,single,False,True,False,191320,False,1,False,False
+los del espacio || lit killah,los del espacio,lit killah,Los del Espacio,LIT killah,False,single,False,False,False,338000,False,1,False,False
+my love || de la ghetto & quevedo,my love,de la ghetto & quevedo,My Love,De La Ghetto & Quevedo,False,single,False,False,False,214123,False,1,False,False
+quevedo \#49 after hour the mixtape || dj saot st,quevedo \#49 after hour the mixtape,dj saot st,QUEVEDO \#49 AFTER HOUR THE MIXTAPE,DJ Saot ST,False,album,False,False,False,120000,False,49,False,False
+no\_se\_ve.mp3 || emilia & ludmilla & zecca,no\_se\_ve.mp3,emilia & ludmilla & zecca,No\_se\_ve.mp3,Emilia & LUDMILLA & ZECCA,False,single,False,True,False,203636,False,1,False,False
+las babys || aitana,las babys,aitana,LAS BABYS,Aitana,False,single,False,True,True,153827,False,1,False,True
+polaris - remix || saiko & feid & quevedo,polaris - remix,saiko & feid & quevedo,POLARIS - Remix,Saiko & Feid & Quevedo,False,single,False,True,False,288000,False,1,False,False
+tuya || rosalía,tuya,rosalía,TUYA,ROSALÍA,False,single,False,True,False,154551,False,1,False,False
+en to lao || haze & jhayco,en to lao,haze & jhayco,En To Lao,Haze & Jhayco,False,single,False,True,False,195033,False,1,False,False
+dubai || trueno & beny jr,dubai,trueno & beny jr,DUBAI,Trueno & Beny Jr,False,single,False,False,False,146000,False,1,False,False
+yankee 150 || yandel & feid & daddy yankee,yankee 150,yandel & feid & daddy yankee,Yankee 150,Yandel & Feid & Daddy Yankee,False,single,False,True,False,242667,False,1,False,False
+"rauw alejandro: bzrp music sessions, vol. 56 || bizarrap & rauw alejandro","rauw alejandro: bzrp music sessions, vol. 56",bizarrap & rauw alejandro,"Rauw Alejandro: Bzrp Music Sessions, Vol. 56",Bizarrap & Rauw Alejandro,False,single,False,True,False,191254,False,1,False,False
+rockstar 2.0 || duki & jhayco,rockstar 2.0,duki & jhayco,RoCKSTAR 2.0,Duki & Jhayco,True,single,False,True,False,173729,False,1,False,False
+chulo pt.2 || bad gyal & tokischa & young miko,chulo pt.2,bad gyal & tokischa & young miko,Chulo pt.2,Bad Gyal & Tokischa & Young Miko,False,single,False,True,False,219333,False,1,False,False
+baby hello || rauw alejandro & bizarrap,baby hello,rauw alejandro & bizarrap,BABY HELLO,Rauw Alejandro & Bizarrap,True,single,False,True,False,222461,False,1,False,False
+rockstar 2.0 || duki,rockstar 2.0,duki,RoCKSTAR 2.0,Duki,True,album,False,True,False,173729,False,14,False,False
+don't lie || duki,don't lie,duki,don't liE,Duki,False,album,False,False,False,213892,False,14,False,False
+lala || myke towers,lala,myke towers,LALA,Myke Towers,False,album,False,True,False,197920,False,23,False,False
+coco loco || maluma,coco loco,maluma,COCO LOCO,Maluma,False,single,True,False,False,166734,False,1,True,True
+mojabi ghost || tainy,mojabi ghost,tainy,MOJABI GHOST,Tainy,False,album,False,True,False,232131,False,19,False,False
+copa vacía || shakira & manuel turizo,copa vacía,shakira & manuel turizo,Copa Vacía,Shakira & Manuel Turizo,False,single,False,False,False,173547,False,1,False,False
+pasiempre || tainy,pasiempre,tainy,PASIEMPRE,Tainy,False,album,False,True,False,355795,False,19,False,False
+la baby || tainy,la baby,tainy,LA BABY,Tainy,False,album,False,False,False,182857,False,19,False,False
+vampire || olivia rodrigo,vampire,olivia rodrigo,vampire,Olivia Rodrigo,False,single,False,True,False,219724,False,1,False,False
+volver || tainy,volver,tainy,VOLVER,Tainy,False,album,False,True,False,185806,False,19,False,False
+corazón vacío || maria becerra,corazón vacío,maria becerra,CORAZÓN VACÍO,Maria Becerra,False,single,False,False,False,160535,False,1,False,False
+columbia || quevedo,columbia,quevedo,Columbia,Quevedo,False,single,False,False,False,186000,False,1,False,False
+baby hello || rauw alejandro,baby hello,rauw alejandro,BABY HELLO,Rauw Alejandro,True,album,False,True,False,222461,False,14,False,False
+mi lova || bad gyal & myke towers,mi lova,bad gyal & myke towers,Mi Lova,Bad Gyal & Myke Towers,False,single,False,True,False,220173,False,1,False,False
+si te pegas || rauw alejandro,si te pegas,rauw alejandro,SI TE PEGAS,Rauw Alejandro,False,album,False,True,False,183652,False,14,False,False
+s91 || karol g,s91,karol g,S91,KAROL G,False,single,True,False,False,173005,False,1,True,True
+remember me || duki,remember me,duki,Remember Me,Duki,False,album,False,False,False,170624,False,15,False,False
+se grita || morad,se grita,morad,Se Grita,Morad,False,album,False,True,False,259627,False,19,False,False
+cafe malibú || sech & mora & saiko,cafe malibú,sech & mora & saiko,Cafe Malibú,Sech & Mora & Saiko,False,single,False,True,False,260307,False,1,False,False
+k-pop || travis scott & bad bunny & the weeknd,k-pop,travis scott & bad bunny & the weeknd,K-POP,Travis Scott & Bad Bunny & The Weeknd,False,single,False,True,False,185220,False,1,True,True
+un rodeoooo || rels b,un rodeoooo,rels b,Un Rodeoooo,Rels B,False,album,False,False,False,136082,False,9,False,False
+solita y sueltaaa || rels b,solita y sueltaaa,rels b,Solita y SueltAAA,Rels B,False,album,False,False,False,155789,False,9,False,False
+pacto (feat. bryant myers & dei v) - remix || jay wheeler & anuel aa & hades66,pacto (feat. bryant myers & dei v) - remix,jay wheeler & anuel aa & hades66,Pacto (feat. Bryant Myers & Dei V) - Remix,Jay Wheeler & Anuel AA & Hades66,False,single,False,True,False,346000,False,1,False,False
+holanda || jhayco,holanda,jhayco,Holanda,Jhayco,False,single,False,True,False,231693,False,1,False,False
+antidepresivos || saiko,antidepresivos,saiko,Antidepresivos,Saiko,False,single,False,False,False,145384,False,1,False,False
+vente conmigo || feid,vente conmigo,feid,VENTE CONMIGO,Feid,False,single,False,False,False,186000,False,1,False,False
+pa' la vuelta || eladio carrion & morad,pa' la vuelta,eladio carrion & morad,PA' LA VUELTA,Eladio Carrion & Morad,False,single,False,True,False,224041,False,1,False,False
+a 300 || jc reyes & pedro calderon,a 300,jc reyes & pedro calderon,A 300,JC Reyes & Pedro Calderon,False,single,False,False,False,169208,False,1,False,False
+piribiri || jc reyes & pedro calderon,piribiri,jc reyes & pedro calderon,PIRIBIRI,JC Reyes & Pedro Calderon,False,single,False,False,False,176727,False,1,False,False
+corazón roto - remix || brray & jhayco & ryan castro,corazón roto - remix,brray & jhayco & ryan castro,Corazón Roto - Remix,Brray & Jhayco & Ryan Castro,False,single,False,True,False,275040,False,1,False,False
+eva longoria || ozuna,eva longoria,ozuna,Eva Longoria,Ozuna,False,album,False,False,False,199850,False,7,False,False
+mi ex tenía razón || karol g,mi ex tenía razón,karol g,MI EX TENÍA RAZÓN,KAROL G,False,album,False,False,False,154374,False,9,False,False
+cosas que no te dije || saiko,cosas que no te dije,saiko,COSAS QUE NO TE DIJE,Saiko,False,single,False,False,False,224725,False,1,False,False
+qlona || karol g,qlona,karol g,QLONA,KAROL G,False,album,False,True,False,172797,False,9,False,False
+miamor || aitana & rels b,miamor,aitana & rels b,miamor,Aitana & Rels B,True,single,False,False,False,159360,False,1,False,False
+ferxxo 151 || feid & icon,ferxxo 151,feid & icon,FERXXO 151,Feid & ICON,True,single,False,False,False,195653,False,1,False,False
+reina || mora,reina,mora,REINA,Mora,False,album,False,True,False,211879,False,15,False,False
+donde se aprende a querer? || mora,donde se aprende a querer?,mora,DONDE SE APRENDE A QUERER?,Mora,False,album,False,False,False,144427,False,15,False,False
+pasajero || mora,pasajero,mora,PASAJERO,Mora,False,album,False,False,False,149538,False,15,False,False
+media luna || mora,media luna,mora,MEDIA LUNA,Mora,False,album,False,False,False,134948,False,15,False,False
+pólvora || mora,pólvora,mora,PÓLVORA,Mora,False,album,False,True,False,185326,False,15,False,False
+fantasías || mora,fantasías,mora,FANTASÍAS,Mora,False,album,False,True,False,191847,False,15,False,False
+el chacal || mora,el chacal,mora,EL CHACAL,Mora,False,album,False,True,False,197787,False,15,False,False
+laguna || mora,laguna,mora,LAGUNA,Mora,False,album,False,True,False,246593,False,15,False,False
+lokita || mora,lokita,mora,LOKITA,Mora,False,album,False,True,False,154154,False,15,False,False
+pide || mora,pide,mora,PIDE,Mora,False,album,False,True,False,207903,False,15,False,False
+córcega || mora,córcega,mora,CÓRCEGA,Mora,False,album,False,True,False,189001,False,15,False,False
+diamonds || mora,diamonds,mora,DIAMONDS,Mora,False,album,False,True,False,193367,False,15,False,False
+un deseo || mora,un deseo,mora,UN DESEO,Mora,False,album,False,True,False,218883,False,15,False,False
+ayer y hoy || mora,ayer y hoy,mora,AYER Y HOY,Mora,False,album,False,True,False,317016,False,15,False,False
+marea || mora,marea,mora,MAREA,Mora,False,album,False,True,False,148082,False,15,False,False
+mala suerte || lola indigo & dellafuente,mala suerte,lola indigo & dellafuente,MALA SUERTE,Lola Indigo & DELLAFUENTE,False,single,False,False,False,215142,False,1,False,False
+modelito || mora,modelito,mora,MODELITO,Mora,False,album,False,True,False,190496,False,14,False,False
+spanish teteo || rvfv & rels b & omar montes,spanish teteo,rvfv & rels b & omar montes,SPANISH TETEO,Rvfv & Rels B & Omar Montes,False,single,False,True,False,181176,False,1,False,False
+corazón roto pt. 3 || brray & anuel aa & chencho corleone,corazón roto pt. 3,brray & anuel aa & chencho corleone,Corazón Roto pt. 3,Brray & Anuel AA & Chencho Corleone,False,single,False,True,False,348400,False,1,False,False
+gatita gangster || karol g,gatita gangster,karol g,GATITA GANGSTER,KAROL G,False,album,False,True,False,170920,False,9,False,False
+besos (with kidd keo & neelo) || swaggglock & kidd keo & neelo,besos (with kidd keo & neelo),swaggglock & kidd keo & neelo,BESOS (with Kidd Keo & Neelo),SwaggGlock & Kidd Keo & Neelo,False,single,False,True,False,172852,False,1,False,False
+te menti || ozuna & saiko & ovy on the drums,te menti,ozuna & saiko & ovy on the drums,Te Menti,Ozuna & Saiko & Ovy On The Drums,False,single,False,False,False,187129,False,1,False,False
+si no estás || iñigo quintero,si no estás,iñigo quintero,Si No Estás,iñigo quintero,False,single,False,False,False,184061,False,1,False,False
+buenas || quevedo & saiko,buenas,quevedo & saiko,Buenas,Quevedo & Saiko,False,single,False,False,False,192954,False,1,False,False
+dararí || aitana,dararí,aitana,Dararí,Aitana,False,album,False,False,False,170346,False,15,False,False
+vagabundo || sebastian yatra,vagabundo,sebastian yatra,VAGABUNDO,Sebastian Yatra,True,album,False,False,False,215600,False,12,False,False
+bubalu || feid & rema,bubalu,feid & rema,BUBALU,Feid & Rema,True,single,False,False,False,228253,False,1,False,False
+miamor || aitana,miamor,aitana,miamor,Aitana,True,album,False,False,False,159360,False,15,False,False
+el jefe || shakira & fuerza regida,el jefe,shakira & fuerza regida,El Jefe,Shakira & Fuerza Regida,False,single,False,True,False,170297,False,1,False,False
+quien es dei v? || dei v,quien es dei v?,dei v,Quien Es Dei V?,Dei V,False,single,False,True,False,162244,False,1,False,False
+un preview || bad bunny,un preview,bad bunny,UN PREVIEW,Bad Bunny,False,single,True,False,True,165582,False,1,True,True
+aqyne || aitana,aqyne,aitana,AQYNE,Aitana,False,album,False,False,False,181426,False,15,False,False
+luces de tecno || feid,luces de tecno,feid,LUCES DE TECNO,Feid,False,album,False,False,False,163786,True,15,True,True
+madrid city || ana mena,madrid city,ana mena,Madrid City,Ana Mena,False,single,False,False,False,172727,False,1,False,False
+ferxxo 151 || feid,ferxxo 151,feid,FERXXO 151,Feid,True,album,False,False,False,195320,True,15,True,True
+gangsters y pistolas || feid,gangsters y pistolas,feid,GANGSTERS Y PISTOLAS,Feid,False,album,False,False,False,170693,False,15,False,False
+bubalu || feid,bubalu,feid,BUBALU,Feid,True,album,False,False,False,228253,False,15,False,False
+ritmo de medallo || feid,ritmo de medallo,feid,RITMO DE MEDALLO,Feid,False,album,False,False,False,118693,False,15,False,False
+ferxxo edition || feid,ferxxo edition,feid,FERXXO EDITION,Feid,False,album,False,False,False,161746,False,15,False,False
+privilegios || feid,privilegios,feid,PRIVILEGIOS,Feid,False,album,False,False,False,185840,False,15,False,False
+lollipop || darell,lollipop,darell,Lollipop,Darell,False,album,False,True,False,199946,False,18,False,False
+narcotics (with bryant myers) || dei v & bryant myers,narcotics (with bryant myers),dei v & bryant myers,Narcotics (with Bryant Myers),Dei V & Bryant Myers,False,single,False,True,False,173991,False,1,False,False
+el mambo || kiko rivera,el mambo,kiko rivera,El Mambo,Kiko Rivera,False,single,False,False,False,129845,False,1,False,False
+"milo j: bzrp music sessions, vol. 57 || bizarrap & milo j","milo j: bzrp music sessions, vol. 57",bizarrap & milo j,"Milo J: Bzrp Music Sessions, Vol. 57",Bizarrap & Milo j,False,single,False,False,False,189901,False,1,False,False
+no estuviste en lo malo - remix || morad & beny jr & dellafuente,no estuviste en lo malo - remix,morad & beny jr & dellafuente,No Estuviste En Lo Malo - REMIX,Morad & Beny Jr & DELLAFUENTE,False,single,False,False,False,268320,False,1,False,False
+no pienso llamar || soge culebra & quevedo & garabatto,no pienso llamar,soge culebra & quevedo & garabatto,NO PIENSO LLAMAR,Soge Culebra & Quevedo & GARABATTO,True,single,False,False,False,198352,False,1,False,False
+fruto || bizarrap & milo j,fruto,bizarrap & milo j,Fruto,Bizarrap & Milo j,False,single,False,False,False,132294,False,5,False,False
+ferxxo 30 || feid,ferxxo 30,feid,FERXXO 30,Feid,False,album,False,False,False,173760,False,16,False,False
+toy en el mic || bizarrap & milo j,toy en el mic,bizarrap & milo j,Toy en el Mic,Bizarrap & Milo j,False,single,False,True,False,137053,False,5,False,False
+no soy eterno || bizarrap & milo j,no soy eterno,bizarrap & milo j,No soy Eterno,Bizarrap & Milo j,False,single,False,False,False,151468,False,5,False,False
+penas de antaño || bizarrap & milo j,penas de antaño,bizarrap & milo j,Penas de Antaño,Bizarrap & Milo j,False,single,False,False,False,201272,False,5,False,False
+monaco || bad bunny,monaco,bad bunny,MONACO,Bad Bunny,False,album,False,True,False,267194,False,22,False,False
+hibiki || bad bunny,hibiki,bad bunny,HIBIKI,Bad Bunny,False,album,False,True,False,208000,False,22,False,False
+nadie sabe || bad bunny,nadie sabe,bad bunny,NADIE SABE,Bad Bunny,False,album,False,True,False,379058,False,22,False,False
+fina || bad bunny,fina,bad bunny,FINA,Bad Bunny,False,album,False,True,False,216327,False,22,False,False
+perro negro || bad bunny,perro negro,bad bunny,PERRO NEGRO,Bad Bunny,False,album,False,True,False,162767,False,22,False,False
+seda || bad bunny,seda,bad bunny,SEDA,Bad Bunny,False,album,False,True,False,190476,False,22,False,False
+mr. october || bad bunny,mr. october,bad bunny,MR. OCTOBER,Bad Bunny,False,album,False,True,False,189258,False,22,False,False
+cybertruck || bad bunny,cybertruck,bad bunny,CYBERTRUCK,Bad Bunny,False,album,False,True,False,191959,False,22,False,False
+telefono nuevo || bad bunny,telefono nuevo,bad bunny,TELEFONO NUEVO,Bad Bunny,False,album,False,True,False,354784,False,22,False,False
+gracias por nada || bad bunny,gracias por nada,bad bunny,GRACIAS POR NADA,Bad Bunny,False,album,False,True,False,177450,False,22,False,False
+baby nueva || bad bunny,baby nueva,bad bunny,BABY NUEVA,Bad Bunny,False,album,False,True,False,240773,False,22,False,False
+vou 787 || bad bunny,vou 787,bad bunny,VOU 787,Bad Bunny,False,album,False,True,False,123643,False,22,False,False
+thunder y lightning || bad bunny,thunder y lightning,bad bunny,THUNDER Y LIGHTNING,Bad Bunny,False,album,False,True,False,217133,False,22,False,False
+acho pr || bad bunny,acho pr,bad bunny,ACHO PR,Bad Bunny,False,album,False,True,False,359647,False,22,False,False
+mercedes carota || bad bunny,mercedes carota,bad bunny,MERCEDES CAROTA,Bad Bunny,False,album,False,True,False,202635,False,22,False,False
+vuelve candy b || bad bunny,vuelve candy b,bad bunny,VUELVE CANDY B,Bad Bunny,False,album,False,True,False,266171,False,22,False,False
+los pits || bad bunny,los pits,bad bunny,LOS PITS,Bad Bunny,False,album,False,True,False,250851,False,22,False,False
+no me quiero casar || bad bunny,no me quiero casar,bad bunny,NO ME QUIERO CASAR,Bad Bunny,False,album,False,True,False,225654,False,22,False,False
+baticano || bad bunny,baticano,bad bunny,BATICANO,Bad Bunny,False,album,False,True,False,256000,False,22,False,False
+no pienso llamar || soge culebra,no pienso llamar,soge culebra,NO PIENSO LLAMAR,Soge Culebra,True,album,False,False,False,198352,False,13,False,False

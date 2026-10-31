@@ -1,0 +1,12 @@
+step,rows_affected,detail
+quarantine_hard_failures,0,"rows with unparseable date, invalid position or unknown explicit flag"
+popularity_zero_as_missing,61,"popularity == 0 treated as missing in popularity_valid (original kept); non-zero minimum is 3, zeros cluster on specific dates"
+warn_popularity,0,soft validation warning (row kept)
+warn_duration,0,soft validation warning (row kept)
+warn_total_tracks,0,soft validation warning (row kept)
+normalise_text,7508,song_norm/artist_norm = NFC + collapse whitespace + casefold; originals kept
+dup_exact_row,0,duplicate flag (rows kept)
+dup_date_position,0,duplicate flag (rows kept)
+dup_date_song_key,0,duplicate flag (rows kept)
+snapshot_completeness,8,rows on dates that do not have exactly 50 unique positions 1..50
+shared_title_flag,373,"titles credited to more than one artist string; NOT merged, flagged for review"

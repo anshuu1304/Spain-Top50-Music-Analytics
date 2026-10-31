@@ -1,0 +1,52 @@
+rows read: 7508
+dates: 151, complete: 150, partial: ['2024-10-15']
+
+INDEPENDENT VALUES
+  window.first_date: 2024-05-18
+  window.window_end: 2024-10-14
+  window.complete_dates: 150
+  rotation.valid_transitions: 149
+  rotation.total_entries: 198
+  rotation.total_exits: 198
+  rotation.total_reentries: 60
+  rotation.mean_daily_turnover: 1.3288590604026846
+  rotation.mean_daily_entry_rate_pct: 2.6577181208053693
+  zero_popularity_rows: 61
+  cohort_14oct_entries: 21
+  cohort_14oct_first_appearances: 20
+  cohort_14oct_bad_bunny: 19
+  songs_total: 188
+  songs_left_censored: 50
+  songs_active_at_window_end: 50
+  album_vs_single_appearances_MW_p: 4.1082165482326233e-07
+  album_vs_single_appearances_medians: [4.0, 26.0]
+  explicit_vs_clean_appearances_MW_p: 0.07292485794790823
+  explicit_vs_clean_n: [80, 58]
+  observed_entry_songs: 138
+
+CHECKS AGAINST results.json
+  [OK] window.first_date: audit=2024-05-18 pipeline=2024-05-18
+  [OK] window.window_end: audit=2024-10-14 pipeline=2024-10-14
+  [OK] window.complete_dates: audit=150 pipeline=150
+  [OK] rotation.valid_transitions: audit=149 pipeline=149
+  [OK] rotation.total_entries: audit=198 pipeline=198
+  [OK] rotation.total_reentries: audit=60 pipeline=60
+  [OK] rotation.mean_daily_turnover: audit=1.3288590604026846 pipeline=1.3288590604026846
+  [OK] rotation.mean_daily_entry_rate_pct: audit=2.6577181208053693 pipeline=2.6577181208053693
+  [OK] rotation.total_exits == entries: audit=198 pipeline=198
+  [OK] zero popularity rows (pipeline reports 61 in docs): audit=61 pipeline=61
+  [OK] cohort 14 Oct entries: audit=21 pipeline=21
+  [OK] cohort 14 Oct first appearances: audit=20 pipeline=20
+  [OK] cohort 14 Oct Bad Bunny first appearances: audit=19 pipeline=19
+  [OK] explicit n_a: audit=80 pipeline=80
+  [OK] explicit n_b: audit=58 pipeline=58
+  [OK] explicit median_a: audit=7.5 pipeline=7.5
+  [OK] explicit median_b: audit=11.0 pipeline=11.0
+  [OK] explicit MW p: audit=0.07292485794790823 pipeline=0.07292485794790823
+  [OK] album n_a: audit=76 pipeline=76
+  [OK] album n_b: audit=62 pipeline=62
+  [OK] album median_a: audit=4.0 pipeline=4.0
+  [OK] album median_b: audit=26.0 pipeline=26.0
+  [OK] album MW p: audit=4.1082165482326233e-07 pipeline=4.1082165482326233e-07
+
+23/23 checks agree

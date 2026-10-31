@@ -1,0 +1,637 @@
+{
+  "window": {
+    "first_date": "2024-05-18",
+    "window_end": "2024-10-14",
+    "complete_dates": 150,
+    "partial_dates": [
+      "2024-10-15"
+    ]
+  },
+  "rotation": {
+    "valid_transitions": 149,
+    "mean_daily_entry_rate_pct": 2.6577181208053693,
+    "mean_daily_exit_rate_pct": 2.6577181208053693,
+    "mean_daily_turnover": 1.3288590604026846,
+    "mean_retention_pct": 97.34228187919463,
+    "total_entries": 198,
+    "total_reentries": 60,
+    "share_of_entries_that_are_reentries_pct": 30.303030303030305,
+    "days_with_zero_entries": 64
+  },
+  "kpis": {
+    "avg_days_on_playlist_cumulative_appearances": 39.93617021276596,
+    "median_observed_first_run_days_KM": 14.0,
+    "median_span_days_exited_observed_entry": 9.5,
+    "entry_to_peak_days_median_observed_entry": 0.0,
+    "avg_playlist_churn_rate_pct_per_day": 2.6577181208053693,
+    "daily_turnover_mean": 1.3288590604026846,
+    "retention_stability_index": 33.643316696534605,
+    "single_vs_album_appearance_ratio_median": 0.15384615384615385,
+    "explicit_minus_clean_km_median_days": 5.0,
+    "average_peak_position": 20.80851063829787,
+    "average_reentries_per_song": 0.3191489361702128,
+    "average_reentries_per_observed_entry_song": 0.2536231884057971,
+    "median_span_days_exited_observed_entry_95ci": [
+      7.0,
+      17.0
+    ]
+  },
+  "comparisons": [
+    {
+      "comparison": "is_explicit: True vs False",
+      "appearances_all_songs_MW_descriptive": {
+        "n_a": 94,
+        "n_b": 94,
+        "U": 3165.0,
+        "p_value": 0.0007744292144015101,
+        "rank_biserial": -0.28361249434133096,
+        "median_a": 11.0,
+        "median_b": 24.5
+      },
+      "appearances_MW": {
+        "n_a": 80,
+        "n_b": 58,
+        "U": 1905.0,
+        "p_value": 0.07292485794790823,
+        "rank_biserial": -0.17887931034482762,
+        "median_a": 7.5,
+        "median_b": 11.0,
+        "p_holm": 0.5833988635832659
+      },
+      "best_position_MW": {
+        "n_a": 94,
+        "n_b": 94,
+        "U": 3972.5,
+        "p_value": 0.23269559446758248,
+        "rank_biserial": -0.10083748302399276,
+        "median_a": 16.0,
+        "median_b": 21.0,
+        "p_holm": 1.0
+      },
+      "popularity_mean_MW": {
+        "n_a": 83,
+        "n_b": 89,
+        "U": 3842.0,
+        "p_value": 0.6501677446290479,
+        "rank_biserial": 0.04020576688777577,
+        "median_a": 80.8,
+        "median_b": 79.53846153846153,
+        "p_holm": 1.0
+      },
+      "rank_volatility_MW": {
+        "n_a": 76,
+        "n_b": 92,
+        "U": 3604.0,
+        "p_value": 0.7318588830196753,
+        "rank_biserial": 0.03089244851258588,
+        "median_a": 6.849282594359129,
+        "median_b": 6.881896273828723,
+        "p_holm": 1.0
+      },
+      "time_to_peak_MW": {
+        "n_a": 80,
+        "n_b": 58,
+        "U": 2071.0,
+        "p_value": 0.22551928782973107,
+        "rank_biserial": -0.10732758620689653,
+        "median_a": 0.0,
+        "median_b": 0.0,
+        "p_holm": 1.0
+      },
+      "first_run_logrank": {
+        "chi2": 0.017869204591393864,
+        "p_value": 0.8936589863053226,
+        "observed_group_a": 49,
+        "expected_group_a": 49.61677196256482,
+        "p_holm": 1.0
+      },
+      "km_median_A": 16.0,
+      "km_median_B": 11.0,
+      "stage_active_n": 50,
+      "stage_chi2": {
+        "chi2": 16.229300213675213,
+        "dof": 4,
+        "p_value": 0.0027264167275021078,
+        "cramers_v": 0.56972449857234,
+        "min_expected": 0.36,
+        "low_expected_cells": true
+      },
+      "stage_chi2_permutation": {
+        "chi2": 16.229300213675213,
+        "p_value_permutation": 0.00029997000299970003,
+        "n_perm": 10000,
+        "seed": 42
+      },
+      "stage_table": {
+        "Decline Phase": {
+          "false": 7,
+          "true": 6
+        },
+        "Growth Phase": {
+          "false": 0,
+          "true": 1
+        },
+        "Mature Phase": {
+          "false": 9,
+          "true": 6
+        },
+        "New Entry": {
+          "false": 1,
+          "true": 19
+        },
+        "Peak Phase": {
+          "false": 1,
+          "true": 0
+        }
+      },
+      "n_a": 94,
+      "n_b": 94
+    },
+    {
+      "comparison": "album_type: album vs single",
+      "appearances_all_songs_MW_descriptive": {
+        "n_a": 97,
+        "n_b": 91,
+        "U": 2547.0,
+        "p_value": 5.414933157606086e-07,
+        "rank_biserial": -0.42290698991729925,
+        "median_a": 5.0,
+        "median_b": 30.0
+      },
+      "appearances_MW": {
+        "n_a": 76,
+        "n_b": 62,
+        "U": 1176.0,
+        "p_value": 4.108216548232624e-07,
+        "rank_biserial": -0.5008488964346349,
+        "median_a": 4.0,
+        "median_b": 26.0,
+        "p_holm": 4.929859857879149e-06
+      },
+      "best_position_MW": {
+        "n_a": 97,
+        "n_b": 91,
+        "U": 4869.5,
+        "p_value": 0.2216220364675655,
+        "rank_biserial": 0.10331936105131989,
+        "median_a": 18.0,
+        "median_b": 19.0,
+        "p_holm": 1.0
+      },
+      "popularity_mean_MW": {
+        "n_a": 81,
+        "n_b": 91,
+        "U": 2789.5,
+        "p_value": 0.006011845231848189,
+        "rank_biserial": -0.24311490978157646,
+        "median_a": 78.1,
+        "median_b": 81.20408163265306,
+        "p_holm": 0.0541066070866337
+      },
+      "rank_volatility_MW": {
+        "n_a": 81,
+        "n_b": 87,
+        "U": 3143.0,
+        "p_value": 0.22762261808539108,
+        "rank_biserial": -0.1079892152689087,
+        "median_a": 6.159085729358322,
+        "median_b": 6.961207894778801,
+        "p_holm": 1.0
+      },
+      "time_to_peak_MW": {
+        "n_a": 76,
+        "n_b": 62,
+        "U": 1469.5,
+        "p_value": 1.8024859249229726e-05,
+        "rank_biserial": -0.3762733446519525,
+        "median_a": 0.0,
+        "median_b": 2.0,
+        "p_holm": 0.000198273451741527
+      },
+      "first_run_logrank": {
+        "chi2": 8.866841892217112,
+        "p_value": 0.002903970917431865,
+        "observed_group_a": 47,
+        "expected_group_a": 34.051083942806656,
+        "p_holm": 0.02903970917431865
+      },
+      "km_median_A": 6.0,
+      "km_median_B": 30.0,
+      "stage_active_n": 50,
+      "stage_chi2": {
+        "chi2": 25.327354637699464,
+        "dof": 4,
+        "p_value": 4.323171028951995e-05,
+        "cramers_v": 0.7117212184233299,
+        "min_expected": 0.42,
+        "low_expected_cells": true
+      },
+      "stage_chi2_permutation": {
+        "chi2": 25.327354637699464,
+        "p_value_permutation": 9.999000099990002e-05,
+        "n_perm": 10000,
+        "seed": 42
+      },
+      "stage_table": {
+        "Decline Phase": {
+          "album": 5,
+          "single": 8
+        },
+        "Growth Phase": {
+          "album": 0,
+          "single": 1
+        },
+        "Mature Phase": {
+          "album": 4,
+          "single": 11
+        },
+        "New Entry": {
+          "album": 20,
+          "single": 0
+        },
+        "Peak Phase": {
+          "album": 0,
+          "single": 1
+        }
+      },
+      "n_a": 97,
+      "n_b": 91
+    }
+  ],
+  "comparisons_excluding_14oct_cohort": {
+    "explicit": {
+      "comparison": "is_explicit: True vs False",
+      "appearances_all_songs_MW_descriptive": {
+        "n_a": 75,
+        "n_b": 93,
+        "U": 3046.5,
+        "p_value": 0.15967111398677492,
+        "rank_biserial": -0.12645161290322582,
+        "median_a": 20.0,
+        "median_b": 25.0
+      },
+      "appearances_MW": {
+        "n_a": 61,
+        "n_b": 57,
+        "U": 1800.5,
+        "p_value": 0.7402315222176714,
+        "rank_biserial": 0.035662927811331624,
+        "median_a": 16.0,
+        "median_b": 11.0
+      },
+      "best_position_MW": {
+        "n_a": 75,
+        "n_b": 93,
+        "U": 3429.5,
+        "p_value": 0.8543631963368976,
+        "rank_biserial": -0.016630824372759867,
+        "median_a": 20.0,
+        "median_b": 21.0
+      },
+      "popularity_mean_MW": {
+        "n_a": 75,
+        "n_b": 89,
+        "U": 3401.5,
+        "p_value": 0.8339745946004947,
+        "rank_biserial": 0.019176029962546748,
+        "median_a": 80.16949152542372,
+        "median_b": 79.53846153846153
+      },
+      "rank_volatility_MW": {
+        "n_a": 68,
+        "n_b": 92,
+        "U": 3588.0,
+        "p_value": 0.11272386343196686,
+        "rank_biserial": 0.1470588235294117,
+        "median_a": 7.699659113969437,
+        "median_b": 6.881896273828723
+      },
+      "time_to_peak_MW": {
+        "n_a": 61,
+        "n_b": 57,
+        "U": 1732.0,
+        "p_value": 0.9719992819185482,
+        "rank_biserial": -0.0037388553350589104,
+        "median_a": 0.0,
+        "median_b": 0.0
+      },
+      "first_run_logrank": {
+        "chi2": 0.010257844350499264,
+        "p_value": 0.9193273851501883,
+        "observed_group_a": 49,
+        "expected_group_a": 48.53258477179109
+      },
+      "km_median_A": 15.0,
+      "km_median_B": 11.0,
+      "stage_active_n": 30,
+      "stage_chi2": {
+        "chi2": 2.1823877479986074,
+        "dof": 3,
+        "p_value": 0.5354257618860272,
+        "cramers_v": 0.2697151428203842,
+        "min_expected": 0.43333333333333335,
+        "low_expected_cells": true
+      },
+      "stage_chi2_permutation": {
+        "chi2": 2.1823877479986074,
+        "p_value_permutation": 0.9057094290570943,
+        "n_perm": 10000,
+        "seed": 42
+      },
+      "stage_table": {
+        "Decline Phase": {
+          "false": 7,
+          "true": 6
+        },
+        "Growth Phase": {
+          "false": 0,
+          "true": 1
+        },
+        "Mature Phase": {
+          "false": 9,
+          "true": 6
+        },
+        "Peak Phase": {
+          "false": 1,
+          "true": 0
+        }
+      },
+      "n_a": 75,
+      "n_b": 93
+    },
+    "album": {
+      "comparison": "album_type: album vs single",
+      "appearances_all_songs_MW_descriptive": {
+        "n_a": 77,
+        "n_b": 91,
+        "U": 2487.0,
+        "p_value": 0.0012126233470512132,
+        "rank_biserial": -0.29013843299557585,
+        "median_a": 13.0,
+        "median_b": 30.0
+      },
+      "appearances_MW": {
+        "n_a": 56,
+        "n_b": 62,
+        "U": 1116.0,
+        "p_value": 0.0008313779174818059,
+        "rank_biserial": -0.3571428571428571,
+        "median_a": 6.5,
+        "median_b": 26.0
+      },
+      "best_position_MW": {
+        "n_a": 77,
+        "n_b": 91,
+        "U": 4174.5,
+        "p_value": 0.032719494831968815,
+        "rank_biserial": 0.1915227629513343,
+        "median_a": 23.0,
+        "median_b": 19.0
+      },
+      "popularity_mean_MW": {
+        "n_a": 73,
+        "n_b": 91,
+        "U": 2384.0,
+        "p_value": 0.0019327365067237359,
+        "rank_biserial": -0.28225199458076167,
+        "median_a": 75.38461538461539,
+        "median_b": 81.20408163265306
+      },
+      "rank_volatility_MW": {
+        "n_a": 73,
+        "n_b": 87,
+        "U": 3139.0,
+        "p_value": 0.901846371104324,
+        "rank_biserial": -0.011494252873563204,
+        "median_a": 7.015567105956711,
+        "median_b": 6.961207894778801
+      },
+      "time_to_peak_MW": {
+        "n_a": 56,
+        "n_b": 62,
+        "U": 1229.5,
+        "p_value": 0.0030534337573779394,
+        "rank_biserial": -0.29176267281105994,
+        "median_a": 0.0,
+        "median_b": 2.0
+      },
+      "first_run_logrank": {
+        "chi2": 10.662809553487254,
+        "p_value": 0.0010931122597306916,
+        "observed_group_a": 47,
+        "expected_group_a": 32.81642020123112
+      },
+      "km_median_A": 5.0,
+      "km_median_B": 30.0,
+      "stage_active_n": 30,
+      "stage_chi2": {
+        "chi2": 1.3797313797313797,
+        "dof": 3,
+        "p_value": 0.7102926101847353,
+        "cramers_v": 0.21445523073836645,
+        "min_expected": 0.3,
+        "low_expected_cells": true
+      },
+      "stage_chi2_permutation": {
+        "chi2": 1.3797313797313797,
+        "p_value_permutation": 0.8487151284871512,
+        "n_perm": 10000,
+        "seed": 42
+      },
+      "stage_table": {
+        "Decline Phase": {
+          "album": 5,
+          "single": 8
+        },
+        "Growth Phase": {
+          "album": 0,
+          "single": 1
+        },
+        "Mature Phase": {
+          "album": 4,
+          "single": 11
+        },
+        "Peak Phase": {
+          "album": 0,
+          "single": 1
+        }
+      },
+      "n_a": 77,
+      "n_b": 91
+    }
+  },
+  "relationships": [
+    {
+      "attribute": "duration_ms",
+      "outcome": "cumulative appearances",
+      "n": 188,
+      "rho": -0.054650901268346694,
+      "p_value": 0.45633535940063147,
+      "p_holm": 1.0
+    },
+    {
+      "attribute": "duration_ms",
+      "outcome": "best position (lower = better)",
+      "n": 188,
+      "rho": -0.05435041499473725,
+      "p_value": 0.4588189569349024,
+      "p_holm": 1.0
+    },
+    {
+      "attribute": "duration_ms",
+      "outcome": "mean popularity",
+      "n": 172,
+      "rho": 0.10492186815193559,
+      "p_value": 0.17075327945258661,
+      "p_holm": 1.0
+    },
+    {
+      "attribute": "duration_ms",
+      "outcome": "re-entries",
+      "n": 188,
+      "rho": -0.016819889181403456,
+      "p_value": 0.8187905700441089,
+      "p_holm": 1.0
+    },
+    {
+      "attribute": "duration_ms",
+      "outcome": "time to peak (observed entry)",
+      "n": 138,
+      "rho": -0.027798434994835457,
+      "p_value": 0.7462031191782824,
+      "p_holm": 1.0
+    },
+    {
+      "attribute": "total_tracks",
+      "outcome": "cumulative appearances",
+      "n": 188,
+      "rho": -0.43277682395971545,
+      "p_value": 5.553311524034799e-10,
+      "p_holm": 8.329967286052198e-09
+    },
+    {
+      "attribute": "total_tracks",
+      "outcome": "best position (lower = better)",
+      "n": 188,
+      "rho": 0.0725830032139056,
+      "p_value": 0.3222342863253964,
+      "p_holm": 1.0
+    },
+    {
+      "attribute": "total_tracks",
+      "outcome": "mean popularity",
+      "n": 172,
+      "rho": -0.14836678852795396,
+      "p_value": 0.052090196672167924,
+      "p_holm": 0.5729921633938472
+    },
+    {
+      "attribute": "total_tracks",
+      "outcome": "re-entries",
+      "n": 188,
+      "rho": -0.09792292836215712,
+      "p_value": 0.18125129100823376,
+      "p_holm": 1.0
+    },
+    {
+      "attribute": "total_tracks",
+      "outcome": "time to peak (observed entry)",
+      "n": 138,
+      "rho": -0.39622051425554594,
+      "p_value": 1.504918261341754e-06,
+      "p_holm": 2.1068855658784555e-05
+    },
+    {
+      "attribute": "total_tracks (albums only)",
+      "outcome": "cumulative appearances",
+      "n": 97,
+      "rho": -0.40113878665745134,
+      "p_value": 4.662549716320751e-05,
+      "p_holm": 0.0006061314631216977
+    },
+    {
+      "attribute": "total_tracks (albums only)",
+      "outcome": "best position (lower = better)",
+      "n": 97,
+      "rho": -0.06617209698400957,
+      "p_value": 0.5195901652390439,
+      "p_holm": 1.0
+    },
+    {
+      "attribute": "total_tracks (albums only)",
+      "outcome": "mean popularity",
+      "n": 81,
+      "rho": 0.13584955660329673,
+      "p_value": 0.22656379080560157,
+      "p_holm": 1.0
+    },
+    {
+      "attribute": "total_tracks (albums only)",
+      "outcome": "re-entries",
+      "n": 97,
+      "rho": -0.06706166136595691,
+      "p_value": 0.5139794792597177,
+      "p_holm": 1.0
+    },
+    {
+      "attribute": "total_tracks (albums only)",
+      "outcome": "time to peak (observed entry)",
+      "n": 76,
+      "rho": -0.2807365446106834,
+      "p_value": 0.014031313509501295,
+      "p_holm": 0.16837576211401556
+    }
+  ],
+  "duration_quartile_kruskal": {
+    "h": 0.46959243931033745,
+    "p": 0.9255191937570095
+  },
+  "popularity_tenure_available": true,
+  "popularity_vs_rank": {
+    "popularity_mean_vs_best_position": {
+      "n": 172,
+      "rho": -0.37690596716702995,
+      "p_value": 3.4645983790420596e-07
+    },
+    "popularity_first_vs_best_position": {
+      "n": 172,
+      "rho": -0.08408648512933993,
+      "p_value": 0.2727786570186817
+    },
+    "popularity_max_vs_best_position": {
+      "n": 172,
+      "rho": -0.43913910364380476,
+      "p_value": 1.6784218493338971e-09
+    }
+  },
+  "popularity_change": {
+    "n": 102,
+    "median_change": 10.5,
+    "mean_change": 11.166666666666666,
+    "share_increase_pct": 94.11764705882352,
+    "share_decrease_pct": 2.941176470588235,
+    "wilcoxon_p_value": 4.057682087506839e-16
+  },
+  "popularity_by_stage": {
+    "kruskal_h": 4.522582073084516,
+    "p_value": 0.10421585139273964,
+    "groups": 3,
+    "median_by_stage": {
+      "Decline Phase": 86.8,
+      "Growth Phase": 96.4748201438849,
+      "Mature Phase": 79.046875,
+      "New Entry": 82.5,
+      "Peak Phase": 79.2
+    }
+  },
+  "attribute_sensitivity": {
+    "songs_changed_group_explicit": 2,
+    "songs_changed_group_album_type": 4,
+    "explicit_appearances_p_canonical": 0.07292485794790823,
+    "explicit_appearances_p_ever": 0.12473785611821643,
+    "album_appearances_p_canonical": 4.108216548232624e-07,
+    "album_appearances_p_ever": 1.8426185279638755e-05
+  },
+  "cohort_14oct_size": 20,
+  "cohort_14oct_bad_bunny": 19
+}
