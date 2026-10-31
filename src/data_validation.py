@@ -13,8 +13,19 @@ _BOOL_MAP = {"true": True, "false": False, "1": True, "0": False, "yes": True, "
 
 
 def parse_dates(s: pd.Series) -> pd.Series:
-    """Parse dd-mm-yyyy strings; unparseable values become NaT."""
-    return pd.to_datetime(s.str.strip(), format=DATE_FORMAT, errors="coerce")
+    """Parse dd-mm-yyyy and yyyy-mm-dd dates; invalid values become NaT."""
+    values = s.str.strip()
+
+    dates = pd.to_datetime(values, format=DATE_FORMAT, errors="coerce")
+
+    iso_mask = dates.isna()
+    dates.loc[iso_mask] = pd.to_datetime(
+        values.loc[iso_mask],
+        format="%Y-%m-%d",
+        errors="coerce",
+    )
+
+    return dates
 
 
 def parse_bool(s: pd.Series) -> pd.Series:

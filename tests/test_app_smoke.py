@@ -75,5 +75,6 @@ def test_reset_filters_restores_defaults(app):
 def test_missing_dataset_shows_error_not_traceback(app, monkeypatch):
     mod, st, calls = app
     monkeypatch.setattr(mod, "RAW_DATA_PATH", Path("/nonexistent/file.csv"))
+    monkeypatch.setattr(mod, "PROCESSED_DIR", Path("/nonexistent/processed"))
     run_main(mod)
     assert calls.get("error", 0) == 1

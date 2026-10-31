@@ -19,7 +19,8 @@ from dashboard.components import caveat_html, fmt_float, fmt_int, kpi_html  # no
 from dashboard.filters import STAGES, Filters, apply_daily_filters, apply_song_filters, csv_bytes  # noqa: E402
 from dashboard.styling import CSS  # noqa: E402
 from src.config import (  # noqa: E402
-    DECLINE_MIN_LOSS, GROWTH_MIN_GAIN, MIN_OBSERVATIONS, NEW_ENTRY_WINDOW_DAYS, RAW_DATA_PATH, RECENT_WINDOW, TOP_N_PEAK,
+    DECLINE_MIN_LOSS, EXPECTED_COLUMNS, GROWTH_MIN_GAIN, MIN_OBSERVATIONS,
+    NEW_ENTRY_WINDOW_DAYS, PROCESSED_DIR, RAW_DATA_PATH, RECENT_WINDOW, TOP_N_PEAK,
 )
 
 st.set_page_config(page_title="Spain Top 50 — Lifecycle & Rotation (2024)", layout="wide")
@@ -37,7 +38,15 @@ def load_bundle(path: str) -> dict:
     from src.preprocessing import attribute_conflicts, build_clean_rows, song_master
     from src.maturity_analysis import song_frame
 
-    raw = load_raw(path)
+    path_obj = Path(path)
+    processed_path = PROCESSED_DIR / "spain_top50_clean.csv"
+
+    if path_obj.resolve() == processed_path.resolve():
+        raw = pd.read_csv(path_obj, dtype=str, keep_default_na=False, encoding="utf-8")
+        raw = raw[["source_row"] + EXPECTED_COLUMNS].copy()
+        raw["source_row"] = pd.to_numeric(raw["source_row"], errors="coerce").astype("Int64")
+    else:
+        raw = load_raw(path_obj)
     clean, rejected, log = build_clean_rows(raw)
     master = song_master(clean)
     conflicts = attribute_conflicts(clean)
@@ -413,11 +422,14 @@ def page_quality(B):
 def main():
     st.title("Spain Top 50: song lifecycle and playlist rotation")
     st.markdown(caveat_html(HISTORICAL_NOTE + " Rank 1 is the best position."), unsafe_allow_html=True)
-    if not RAW_DATA_PATH.exists():
-        st.error("The dataset file is missing. Place Atlantic_Spain.csv in data/raw/ and reload the page.")
+    processed_path = PROCESSED_DIR / "spain_top50_clean.csv"
+    dataset_path = RAW_DATA_PATH if RAW_DATA_PATH.exists() else processed_path
+
+    if not dataset_path.exists():
+        st.error("Dataset files are missing. Add the raw or processed CSV to the expected data folder.")
         return
     try:
-        B = load_bundle(str(RAW_DATA_PATH))
+        B = load_bundle(str(dataset_path))
     except Exception:
         st.error("The dataset could not be processed. Check that the file matches the expected format.")
         return
